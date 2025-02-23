@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>我的 GitHub Pages 網站</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <!-- 自訂 CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <!-- 導覽列 -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">我的技術部落格</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">首頁</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">專案</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">關於</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主要內容 -->
+    <div class="container">
+        <h1 class="text-primary text-center">🚀 歡迎來到我的 GitHub Pages 網站！</h1>
+        <p class="lead text-center">這是我透過 <strong>GitHub Pages</strong> 和 <strong>Jekyll</strong> 建立的個人網站。</p>
+
+        <div class="row">
+            <div class="col-md-6">
+                <h2>📚 技術部落格</h2>
+                <ul class="list-group">
+                    <li class="list-group-item">💡 Python、JavaScript、HTML/CSS 學習筆記</li>
+                    <li class="list-group-item">🔧 開源工具 & GitHub 工作流程</li>
+                    <li class="list-group-item">📊 資料科學與視覺化</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h2>🚀 專案展示</h2>
+                <ul class="list-group">
+                    <li class="list-group-item">🔗 我的開源專案</li>
+                    <li class="list-group-item">💡 如何參與開源？</li>
+                    <li class="list-group-item">🎯 我的個人專案與作品集</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2 class="mt-4">📧 聯絡我</h2>
+        <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+    </div>
+
+    <!-- 回到頂部按鈕 -->
+    <button onclick="scrollToTop()" id="topBtn" class="btn btn-primary">🔝 回到頂部</button>
+
+    <!-- 切換深色模式 -->
+    <button onclick="toggleDarkMode()" class="btn btn-secondary mt-3">🌙 切換深色模式</button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- 自訂 JavaScript -->
+    <script src="assets/js/scripts.js"></script>
+
+</body>
+</html>
