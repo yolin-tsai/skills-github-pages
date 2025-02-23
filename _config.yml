@@ -1,5 +1,18 @@
-theme: minima
+remote_theme: pages-themes/midnight@v0.2.0
+plugins:
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
 
-title: My First GitHub Pages Site
+title: Yolin Pages Site
 author: tsai-yolin
-description: "Welcome to my first GitHub Pages website! Built using Jekyll."
+description: "Welcome to my website!"
+
+sass:
+  style: compressed  # 壓縮 CSS 來提升加載速度
+
+social_links:
+  - name: "GitHub"
+    url: "https://github.com/your-username"
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com/in/your-profile"
+  - name: "Twitter"
+    url: "https://twitter.com/your-handle"
