@@ -7,6 +7,7 @@ author: tsai-yolin
 description: "Welcome to my website!"
 
 sass:
+  sass_dir: "assets/css"
   style: compressed  # 壓縮 CSS 來提升加載速度
 
 social_links:
